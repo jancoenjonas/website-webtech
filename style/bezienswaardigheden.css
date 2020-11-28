@@ -1,0 +1,35 @@
+body {
+    background-color: var(--color-primary);
+}
+
+.content {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1.5em;
+    padding: 1.5em;
+}
+
+article {
+    color: var(--color-text-light);
+    background-color: rgb(0, 0, 0);
+    filter: drop-shadow(0.5em 0.5em 0 #333);
+}
+
+article header {
+    background-color: var(--color-secondary);
+    padding: 10px 0;
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 0.2em;
+    font-weight: bold;
+}
+
+article main {
+    padding: 1em;
+}
+
+article img {
+    padding: 1em;
+    object-fit: cover;
+    width: 480px;
+    height: 320px;
+}
