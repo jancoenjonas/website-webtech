@@ -31,7 +31,7 @@ article header {
     font-weight: bold;
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-aspect-ratio: 4/3) {
     article {
         grid-column-start: 1;
         grid-column-end: 7;
