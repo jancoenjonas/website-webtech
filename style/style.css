@@ -3,6 +3,7 @@
     --color-secondary: #1c2026;
     --color-text-dark: #1c2026;
     --color-text-light: #cad0d8;
+    --color-text-faded: rgba(202, 208, 216, 60%);
     --color-link-hover: #e83b3b;
     --color-link-active: #5993e3;
 }

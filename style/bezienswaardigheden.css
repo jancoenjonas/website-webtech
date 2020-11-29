@@ -33,11 +33,21 @@ article img {
     width: 480px;
     height: 320px;
 }
-.button {
-    text-align: center;
-    margin: auto;
-  
 
+.details-link {
+    padding: 1em;
+    display: block;
+    text-align: center;
+}
+
+.details-link a {
+    padding: 1em;
+    color: var(--color-text-faded);
+    border-color: black;
+    border-style: solid;
+}
+
+.details-link a:hover {
+    border-color: var(--color-text-faded);
     text-decoration: none;
-    color: initial;
 }
